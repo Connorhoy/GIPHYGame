@@ -9,7 +9,7 @@ $(document).ready(function(){
 		console.log('button clicked');
 
 		// QueryURL
-	   var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=halo";
+	   var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=halo";
 	   var search = event.target.getAttribute('data-name');
 	   $.ajax({
         url: queryURL,
@@ -45,7 +45,7 @@ $(document).ready(function(){
 	$("#callofduty-button").on("click", function() {
 		console.log("button clicked");
 
-		var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=callofduty"
+		var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=callofduty"
 
 		$.ajax({
 			url: queryURL,
@@ -68,7 +68,7 @@ $(document).ready(function(){
 	$("#worldofwarcraft-button").on("click", function() {
 		console.log("button clicked");
 
-		var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=worldofwarcraft"
+		var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=worldofwarcraft"
 
 		$.ajax({
 			url: queryURL,
@@ -91,7 +91,7 @@ $(document).ready(function(){
 	$("#league-button").on("click", function() {
 		console.log("button clicked");
 
-		var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=leagueoflegends"
+		var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=leagueoflegends"
 
 		$.ajax({
 			url: queryURL,
@@ -114,7 +114,7 @@ $(document).ready(function(){
 	$("#battlefield1-button").on("click", function() {
 		console.log("button clicked");
 
-		var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=battlefield1"
+		var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=battlefield1"
 
 		$.ajax({
 			url: queryURL,
