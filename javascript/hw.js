@@ -55,13 +55,14 @@ $(document).ready(function(){
 		.done(function(response) {
 
 		var imageUrl = response.data.image_original_url;
-
+		for(var i = 0; i < 10; i++){
 		var codImage = $("<img>");
 
 		codImage.attr("src", imageUrl);
 		codImage.attr("alt", "call of duty image");
 
 		$("#images").prepend(codImage);
+			};
 		});
 	});
 
@@ -78,13 +79,14 @@ $(document).ready(function(){
 		.done(function(response) {
 
 		var imageUrl = response.data.image_original_url;
-
+		for(var i = 0; i < 10; i++){
 		var wowImage = $("<img>");
 
 		wowImage.attr("src", imageUrl);
 		wowImage.attr("alt", "World of Warcraft image");
 
 		$("#images").prepend(wowImage);
+			};
 		});
 	});
 
@@ -101,13 +103,14 @@ $(document).ready(function(){
 		.done(function(response) {
 
 		var imageUrl = response.data.image_original_url;
-
+		for(var i = 0; i < 10; i++){
 		var leagueImage = $("<img>");
 
 		leagueImage.attr("src", imageUrl);
 		leagueImage.attr("alt", "League of Legends Image");
 
 		$("#images").prepend(leagueImage);
+			};
 		});
 	});
 
@@ -125,12 +128,14 @@ $(document).ready(function(){
 
 		var imageUrl = response.data.image_original_url;
 
+		for(var i = 0; i < 10; i++){
 		var battlefieldImage = $("<img>");
 
 		battlefieldImage.attr("src", imageUrl);
 		battlefieldImage.attr("alt", "Battlefield image");
 
 		$("#images").prepend(battlefieldImage);
+			};
 		});
 	});
 });
