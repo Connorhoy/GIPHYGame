@@ -1,0 +1,10 @@
+/* CSS Code for GIPHY Homework */
+
+body {
+	background-image: url(https://simonwebdesign.com/wp-content/uploads/5-cool-backgrounds_0002_bg3.jpg);
+}
+
+.img1 {
+	position: relative;
+	left: 40px;
+}
